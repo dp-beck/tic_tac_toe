@@ -22,12 +22,26 @@ h1 {
 }
 
 .gameBoardBox {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Comforter Brush', Arial;
 }
 
 .buttonContainer {
     display: flex;
-    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.buttonContainer button{
+    border-radius: 15px;
+    background-color: slateblue;
+    color: white;
+    font-weight: bold;
 }
 
 #\30 {

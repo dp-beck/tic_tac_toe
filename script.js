@@ -1,10 +1,3 @@
-//TO DO: Implement an AI Option for either player
-   
-   // 3. If computer then, run the bit of logic to choose a piece to play
-
-//TO DO: Style the display
-//TO DO: Style and Center the Player Marks
-//TO DO: Create a Reset Button
 
 //Could store these somewhere instead of in the global environment
 const controller = new AbortController();
